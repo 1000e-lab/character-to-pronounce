@@ -5,8 +5,8 @@ import logging
 from logger import myLogger
 
 # Declare Logger
-myLogger = myLogger(__name__, log_level=logging.INFO)
-logger = myLogger.setLogger()
+logger = myLogger(__name__, log_level=logging.INFO)
+logger = logger.setLogger()
 
 char_load_file = 'characters.csv'
 pkl_file = 'characters.pkl'
